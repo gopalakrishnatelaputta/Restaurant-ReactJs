@@ -1,0 +1,80 @@
+.nav-bar {
+    background-color: #078ec4;
+    text-align: left;
+   
+    margin-top: 18px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+.menu-cart {
+    color: rgb(206, 9, 140);
+    height: 60px;
+    font-size: 1.7rem;
+    /* margin-left: 20px; */
+}
+.search{
+    height: 30px;
+    margin-bottom: 15px;
+    width: 400px;
+    border-radius: 3px;
+    column-rule-color: #0000cd;
+    font-size: 18px;
+    
+    
+}
+.cartIcon{
+   
+    margin-right: 60px;
+    margin-bottom: 15px;
+   
+    
+}
+.dropdown-toggle.btn.btn-success{
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    border-radius: 8px;
+    color: green;
+    text-decoration: red;
+    
+    
+    
+   
+
+     
+}
+
+
+.buttonContainer button {
+    background-color: #0000cd;
+    margin-top: 20px;
+    border:black;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: solid;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    margin-left: 40;
+    text-align: center;
+}
+/* .buttonContainer */
+/* {
+    position: absolute;
+   top: 50%; 
+  left: 50%;
+   transform: translate(-50%, -50%); 
+} */
+.buttonContainer button:hover{
+    background-color: #070a07;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+} 
